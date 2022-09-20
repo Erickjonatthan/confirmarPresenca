@@ -21,7 +21,7 @@
 
       <label>Posso contar com sua presen&ccedil;a?</label>
 
-      <label>Sim</label><input type="radio" name="resposta" value="sim">
+      <label>Sim</label><input type="radio" name="resposta" value="sim" required>
 
       <label>N&atilde;o</label><input type="radio" name="resposta" value="nao">
 
