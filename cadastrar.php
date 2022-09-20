@@ -15,5 +15,5 @@ if($conexao->query($sql) === TRUE) {
 
 
 
-header('Location: index.php');
+header('Location: confirma.php');
 exit;
