@@ -1,3 +1,6 @@
+<?php
+session_start()
+?>
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
 
@@ -15,7 +18,7 @@
     <div class="caixa">
         <h4><ins>Obrigado!</ins></h4>
 
-        
+
 
     </div>
 

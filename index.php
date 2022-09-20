@@ -12,12 +12,7 @@ session_start()
   <link rel="stylesheet" href="./css/responsivo.css" />
 
   <title>Confirme sua presen&ccedil;a </title>
-<script>
-function funcao1()
-{
-alert("Convidado já respondeu!");
-}
-</script>
+
 </head>
 
 <body>
@@ -25,9 +20,14 @@ alert("Convidado já respondeu!");
   <div class="caixa">
     <h4><ins>Ol&aacute;, voc&ecirc; pode me tirar uma d&uacute;vida?</ins></h4>
     <?php
-    if($_SESSION['convidado_existe']):
+    if ($_SESSION['convidado_existe']) :
     ?>
-    funcao1();
+      <script>
+        function funcao1() {
+          alert("Convidado já respondeu!");
+        }
+        funcao1();
+      </script>
     <?php
     endif;
     unset($_SESSION['convidado_existe']);
