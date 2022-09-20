@@ -16,7 +16,7 @@ if($row['total'] == 1) {
 	exit;
 }
 
-$sql = "INSERT INTO ListaConvidados (nome, usuario, senha, data_cadastro) VALUES ('$nome', '$usuario', '$senha', NOW())";
+$sql = "INSERT INTO ListaConvidados (nome, resposta, data_cadastro) VALUES ('$nome', '$resposta', NOW())";
 
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['status_cadastro'] = true;
