@@ -25,7 +25,7 @@ session_start()
     ?>
       <script>
         function funcao1() {
-          swal("Convidado já respondeu!, tente com outro");
+          swal("Convidado já respondeu! tente com outro");
         }
         funcao1();
       </script>
