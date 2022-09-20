@@ -15,7 +15,7 @@
           <div class="caixa">   
         <h4><ins>Olá, você pode tirar uma dúvida?</ins></h4>
 
-        <form action="api/cadastrar.php" method="post">
+        <form action="cadastrar.php" method="post">
             <label>Nome:</label>
             <input type="text" name="nome" required>
 
