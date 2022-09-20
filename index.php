@@ -1,3 +1,6 @@
+<?php
+session_start()
+?>
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
 
@@ -9,14 +12,26 @@
   <link rel="stylesheet" href="./css/responsivo.css" />
 
   <title>Confirme sua presen&ccedil;a </title>
-
+<script>
+function funcao1()
+{
+alert("Convidado já respondeu!");
+}
+</script>
 </head>
 
 <body>
 
   <div class="caixa">
     <h4><ins>Ol&aacute;, voc&ecirc; pode me tirar uma d&uacute;vida?</ins></h4>
-
+    <?php
+    if($_SESSION['convidado_existe']):
+    ?>
+    funcao1();
+    <?php
+    endif;
+    unset($_SESSION['convidado_existe']);
+    ?>
     <form action="cadastrar.php" method="post">
       <label>Nome:</label>
       <input type="text" name="nome" required>

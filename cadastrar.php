@@ -23,10 +23,11 @@ $sql = "INSERT INTO listaconvidados (nome, resposta, data_cadastro) VALUES ('$no
 
 
 if($conexao->query($sql) === TRUE) {
-	header('Location: confirma.php');
+	$_SESSION['status_cadastro'] = true;
 }
 
 $conexao->close();
 
-
+header('Location: confirma.php');
 exit;
+?>
