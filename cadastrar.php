@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include("conexao.php");
 
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
@@ -12,7 +12,7 @@ $row = mysqli_fetch_assoc($result);
 
 if($row['total'] == 1) {
 	$_SESSION['usuario_existe'] = true;
-	header('Location: cadastro.php');
+	header('Location: confirma.php');
 	exit;
 }
 
@@ -24,5 +24,5 @@ if($conexao->query($sql) === TRUE) {
 
 $conexao->close();
 
-header('Location: cadastro.php');
+header('Location: confirma.php');
 exit;
