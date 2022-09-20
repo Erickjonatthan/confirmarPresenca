@@ -3,7 +3,7 @@
 include("conexao.php");
 
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
-$resposta = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
+$resposta = mysqli_real_escape_string($conexao, trim($_POST['resposta']));
 
 
 $sql = "select count(*) as total from listaconvidados where nome = '$nome'";
