@@ -10,7 +10,8 @@ session_start()
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsivo.css" />
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <title>Confirme sua presen&ccedil;a </title>
 
 </head>
@@ -24,7 +25,7 @@ session_start()
     ?>
       <script>
         function funcao1() {
-          alert("Convidado já respondeu!");
+          swal("Convidado j&aacute; respondeu !");
         }
         funcao1();
       </script>
