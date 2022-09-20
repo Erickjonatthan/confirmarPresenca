@@ -2,11 +2,11 @@
 <html lang="pt-br" dir="ltr">
 
 <head>
-
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="responsivo.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsivo.css" />
   <title>Confirme sua presen&ccedil;a </title>
 
 </head>
