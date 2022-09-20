@@ -2,17 +2,18 @@
 <html lang="pt-br" dir="ltr">
 
 <head>
-  
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsivo.css" />
+
   <title>Confirme sua presen&ccedil;a </title>
 
 </head>
 
 <body>
-  
+
   <div class="caixa">
     <h4><ins>Ol&aacute;, voc&ecirc; pode me tirar uma d&uacute;vida?</ins></h4>
 
