@@ -2,20 +2,17 @@
 <html lang="pt-br" dir="ltr">
 
 <head>
-
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsivo.css" />
-  <link rel="stylesheet" href="css/bulma.min.css" />
   <title>Confirme sua presen&ccedil;a </title>
 
 </head>
 
 <body>
-  <div class="notification is-info">
-    <p>O usuário escolhido já existe. Informe outro e tente novamente.</p>
-  </div>
+  
   <div class="caixa">
     <h4><ins>Ol&aacute;, voc&ecirc; pode me tirar uma d&uacute;vida?</ins></h4>
 
