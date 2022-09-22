@@ -16,10 +16,24 @@ session_start()
 
 <body>
     <div class="caixa">
-        <h4><ins>Obrigado!</ins></h4>
+        <?php
+        if ($_SESSION['status_cadastro']) :
+        ?>
+            <h4><ins>Obrigado!</ins></h4>
+        <?php
+            unset($_SESSION['status_cadastro']);
+        else :
+            unset($_SESSION['status_cadastro']);
+        endif;
+        ?>
+        <h4><ins>Erro!</ins></h4>
 
 
 
+
+
+
+        <a href="index.php"><input class="botao" type="submit" value="VOLTAR"></a>
     </div>
 
 </body>
